@@ -14,4 +14,3 @@ function chiketto() {
     価格 = 価格.toFixed(2);
     document.getElementById("kotae").innerHTML = 価格 + "€";
 }
-
