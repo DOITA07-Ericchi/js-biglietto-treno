@@ -2,8 +2,8 @@ function chiketto() {
     let キロ = document.getElementById("kiro").value;
     let 才 = document.getElementById("sai").value;
     let 価格 = キロ * 0.21;
-    // Scusami Bryan. Volevo smentire il dogma delle variabili che vanno
-    // scritte unicamente con caratteri dell'alfabeto latino. Non lo faccio più.
+    // Scusami Bryan. Volevo vedere se le variabili andavano davvero scritte
+    // unicamente con caratteri dell'alfabeto latino. Non lo faccio più.
 
     if (才 < 18){
         価格 = 価格-(価格 / 100 * 20);
